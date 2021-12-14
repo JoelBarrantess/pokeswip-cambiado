@@ -36,7 +36,7 @@ function galleryRandom() {
     let imagenes = document.getElementsByTagName("img")
     let listRnd = getListRandom(imagenes.length - 1, min, max)
     for (let i = 0; i < imagenes.length - 1; i++) {
-        imagenes[i].setAttribute("src", "./img/IMG_" + listRnd[i] + ".PNG")
+        imagenes[i].setAttribute("src", "./img_/IMG_" + listRnd[i] + ".PNG/.png/.jpg")
     }
 
 }
