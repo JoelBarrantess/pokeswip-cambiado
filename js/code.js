@@ -51,21 +51,14 @@ function saludo() {
     let header = document.getElementsByTagName("header")
     let footer = document.getElementsByTagName("footer")
     let encabezado = document.getElementById("saludo");
-    if (d.getHours() < 7 > 12  || d.getHours() > 12 < 17) {
-        encabezado.innerHTML = "¡Buenas tardes!";
-        encabezado.style.color = "white";
-        header[0].style.backgroundColor = "#330000";
-        footer[0].style.backgroundColor = "#330000";
-    } else {
-        encabezado.innerHTML = "¡Buenos días!";
-        header[0].style.backgroundColor = "rgb(255, 36, 0)";
-        footer[0].style.backgroundColor = "rgb(255, 36, 0)";
+    if (d.getHours() <= 6 && > 14) {
+        header.innerHTML = "¡Buenos dias!"
+    if (d.getHours() <= 14 && > 21) {
+        header.innerHTML = "¡Buenas tardes!"
+    if (d.getHours() <= 21 && > 6) {
+        header.innerHTML = "¡Buenas noches!"
+        
 
-    } else {
-        encabezado.innerHTML = "! Buenas noches! "
-        encabezado.style.color = "black";
-        header[0].style.backgroundColor = "rgb(0, 0, 128)";
-        footer[0].style.backgroundColor = "rgb(0, 0, 128)";
 
 
 }
