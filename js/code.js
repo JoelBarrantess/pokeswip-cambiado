@@ -58,8 +58,8 @@ function saludo() {
         footer[0].style.backgroundColor = "#3E3730";
     } else {
         encabezado.innerHTML = "¡Buenos días!";
-        header[0].style.backgroundColor = "rgb(238, 107, 47)";
-        footer[0].style.backgroundColor = "rgb(238, 107, 47)";
+        header[0].style.backgroundColor = "rgb(138, 144, 147)";
+        footer[0].style.backgroundColor = "rgb(238, 7, 7)";
 
     }
 

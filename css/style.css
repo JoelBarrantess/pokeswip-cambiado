@@ -18,7 +18,7 @@ div.scrollmenu div.card {
     display: inline-block;
     width: 40vh;
     margin-right: 4.8vh;
-    border: solid 1px rgba(255, 255, 255, 0.363);
+    border: solid 1px rgb(88, 60, 248);
 }
 
 header {
