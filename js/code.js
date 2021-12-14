@@ -32,7 +32,7 @@ function getListRandom(n, min, max) {
 
 function galleryRandom() {
     let min = 1;
-    let max = 17;
+    let max = 6;
     let imagenes = document.getElementsByTagName("img")
     let listRnd = getListRandom(imagenes.length - 1, min, max)
     for (let i = 0; i < imagenes.length - 1; i++) {
