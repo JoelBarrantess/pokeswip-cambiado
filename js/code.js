@@ -51,11 +51,11 @@ function saludo() {
     let header = document.getElementsByTagName("header")
     let footer = document.getElementsByTagName("footer")
     let encabezado = document.getElementById("saludo");
-    if (d.getHours() <= 6 && > 14) {
+    if (d.getHours() <= 6 ) {
         header.innerHTML = "¡Buenos dias!"
-    if (d.getHours() <= 14 && > 21) {
+    if (d.getHours() <= 14 ) {
         header.innerHTML = "¡Buenas tardes!"
-    if (d.getHours() <= 21 && > 6) {
+    if (d.getHours() <= 21 ) {
         header.innerHTML = "¡Buenas noches!"
         
 
